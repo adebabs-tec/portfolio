@@ -241,7 +241,7 @@ function Home() {
               <h3 className="text-3xl font-bold mb-4">Branding</h3>
               <p className="mb-4 text-lg">
                 I have been developing websites for a while, but I also equally
-                enjoy creating other digital products.
+                enjoy creating other digital products.adev
               </p>
               <Link
                 to={'/branding'}
