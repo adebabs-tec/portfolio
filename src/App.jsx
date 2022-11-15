@@ -5,6 +5,7 @@ import Home from './pages/Home/home'
 import About from './pages/About/about'
 import Header from './components/header'
 import Contact from './pages/Contact/contact'
+import Footer from './components/footer'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )

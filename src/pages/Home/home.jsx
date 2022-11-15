@@ -9,6 +9,7 @@ import {
   Services,
 } from '../../assets'
 import Scroller from '../../components/scroller'
+import Contact from '../Contact/contact'
 import { portfolioData } from '../../data'
 function Home() {
   return (
@@ -290,6 +291,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Contact />
     </div>
   )
 }
