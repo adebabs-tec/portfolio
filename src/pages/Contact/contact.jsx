@@ -1,38 +1,103 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { socials } from '../../data'
 
 function Contact() {
   return (
-    <section
-      className="px-4 bg-yellow-300 hover:bg-black hover:text-white cursor-pointer
-     border-t-2 border-black ease-in-out duration-150"
-    >
-      <Link to="/contact">
-        <div className="container mx-auto md:flex gap-8 py-24">
-          <div className="flex-col items-center">
-            <h2 className="text-4xl">Have a project in mind?</h2>
-            <h1 className="text-4xl lg:text-5xl xl:text-7xl font-bold">
-              Let's get to work.
+    <section>
+      <div className="border-x-2 border-black py-12">
+        <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2">
+          <div>
+            <h1 className="text-4xl lg:text-5xl xl:text-7xl mb-4 font-bold">
+              Contact
             </h1>
+            <p className="text-lg mb-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+              deserunt tempore officia harum sequi molestiae ratione odio quasi
+              repellendus recusandae.
+            </p>
+            <p className="text-xl mb-6 font-semibold">
+              Need my email: babalolaruqoyat@gmail.com
+            </p>
+            <div className="text-lg font-bold">Find me on:</div>
+            <div className="mb-8">
+              <ul className="flex gap-6">
+                {socials.map((item, index) => (
+                  <li key={index}>
+                    <a
+                      target="_blank"
+                      href={item.link}
+                      rel="noopener noreferrer"
+                      className="py-2 flex flex-col md:flex-row gap-2 items-center justify-center"
+                    >
+                      <img src={item.icon} alt={item.alt} width="" height="" />
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="text-xl font-bold">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+          <form
+            action="https://public.herotofu.com/v1/52fc1400-68b3-11ed-bd0a-c1ef0a3c8340"
+            method="post"
+          >
+            <div className="w-full mb-4">
+              <label
+                for="name"
+                className="form-label inline-block mb-2 text-gray-700"
+              >
+                Your Name
+              </label>
+              <input
+                name="Name"
+                id="name"
+                type="text"
+                required
+                className="w-full block px-4 py-3 border-black border-2 rounded"
               />
-            </svg>
-          </div>
+            </div>
+            <div className="w-full mb-4">
+              <label
+                for="email"
+                className="form-label inline-block mb-2 text-gray-700"
+              >
+                Your Email
+              </label>
+              <input
+                name="Email"
+                id="email"
+                type="text"
+                required
+                className="w-full block px-4 py-3 border-black border-2 rounded"
+              />
+            </div>
+            <div className="w-full mb-4">
+              <label
+                for="message"
+                className="form-label inline-block mb-2 text-gray-700"
+              >
+                Message
+              </label>
+              <textarea
+                name="email"
+                id="email"
+                className="w-full block px-4 py-3 border-black border-2 rounded"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div>
+              <input
+                type="submit"
+                value="Send Message"
+                className="px-6 py-4 rounded-md bg-teal-600 hover:bg-teal-700 text-white"
+              />
+            </div>
+          </form>
         </div>
-      </Link>
+      </div>
     </section>
   )
 }
