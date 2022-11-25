@@ -1,6 +1,7 @@
 import './App.css'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ScrollToTop from '../scrollToTop'
 import Home from './pages/Home/home'
 import About from './pages/About/about'
 import Header from './components/header'
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="" element={<Home />} />
