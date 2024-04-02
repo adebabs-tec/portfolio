@@ -12,9 +12,9 @@ function Contact() {
               Contact
             </h1>
             <p className="text-lg mb-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-              deserunt tempore officia harum sequi molestiae ratione odio quasi
-              repellendus recusandae.
+              Feel free to reach out to me for any inquiries, collaborations, or
+              opportunities. I'm excited to connect and discuss how we can work
+              together.
             </p>
             <p className="text-xl mb-6 font-semibold">
               Need my email: babalolaruqoyat@gmail.com

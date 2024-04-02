@@ -181,8 +181,8 @@ function Home() {
             <div>
               <h3 className="text-3xl font-bold mb-4">Web design</h3>
               <p className="mb-4 text-lg">
-                I have been developing websites for a while, but I also equally
-                enjoy creating other digital products.
+                Crafting captivating digital experiences through the fusion of
+                creativity and functionality is my passion in web design.
               </p>
               <Link
                 to={'/web-design'}
@@ -205,8 +205,10 @@ function Home() {
               </Link>
               <h3 className="text-3xl font-bold mb-4">Web development</h3>
               <p className="mb-4 text-lg">
-                I have been developing websites for a while, but I also equally
-                enjoy creating other digital products.
+                Web development is my canvas, where I blend code and creativity
+                to bring digital ideas to life. From concept to execution, I
+                thrive on building innovative solutions that shape the online
+                world.
               </p>
               <Link
                 to={'/web-development'}
@@ -242,7 +244,7 @@ function Home() {
               <h3 className="text-3xl font-bold mb-4">Branding</h3>
               <p className="mb-4 text-lg">
                 I have been developing websites for a while, but I also equally
-                enjoy creating other digital products.adev
+                enjoy creating other digital products.
               </p>
               <Link
                 to={'/branding'}
@@ -265,8 +267,9 @@ function Home() {
               </Link>
               <h3 className="text-3xl font-bold mb-4">Bootstrap</h3>
               <p className="mb-4 text-lg">
-                I have been developing websites for a while, but I also equally
-                enjoy creating other digital products.
+                Bootstrap: Empowering me to create visually stunning,
+                user-friendly websites with ease, thanks to its robust grid
+                system and comprehensive component library.
               </p>
               <Link
                 to={'/web-bootstrap'}

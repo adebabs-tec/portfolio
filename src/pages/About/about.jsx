@@ -15,15 +15,18 @@ function About() {
                 My Story
               </h1>
               <p className="text-lg mb-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Suscipit deserunt tempore officia harum sequi molestiae ratione
-                odio quasi repellendus recusandae.
+                I've always been captivated by the magic of technology. Growing
+                up, I found myself drawn to the intricate world of coding and
+                web development. What started as a curious exploration soon
+                blossomed into a passion as I delved deeper into the realms of
+                frontend development.
               </p>
               <p className="text-lg mb-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Suscipit deseruntur adipisicing elit. Suscipit deserunt tempore
-                officia harum sequi molestiae ratione odio quasi repellendus
-                recusandae.
+                With relentless determination and a thirst for knowledge, I
+                honed my skills, mastering the art of crafting visually stunning
+                and seamlessly functional websites. My journey as a frontend
+                developer has been marked by countless hours of dedication,
+                experimentation, and learning.
               </p>
               <div className="text-lg font-bold">Find me on:</div>
               <div className="mb-8">
