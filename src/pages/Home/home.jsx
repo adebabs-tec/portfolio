@@ -53,8 +53,8 @@ function Home() {
               Developer<span className="text-violet-900">.</span>
             </h1>
             <p className="text-lg max-w-xl mb-6 ">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. tenetur
-              ea facere in ak.
+              I'm a dedicated frontend developer, passionate about crafting
+              immersive digital experiences.
             </p>
             <div className="flex gap-4 items-baseline">
               <HashLink

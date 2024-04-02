@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from '../assets'
+import logo from '../assets/logo1.jpg'
 import { Link, NavLink } from 'react-router-dom'
 
 const activeClassName = 'text-amber-500'
@@ -11,7 +11,7 @@ function Header() {
         to="/"
         className="flex justify-center align-middle border-black border-r-2 py-4"
       >
-        <img src={Logo} alt="Raddy" width="137" height="15" />
+        <img src={logo} alt="Raddy" width="137" height="15" />
       </Link>
       <Link
         to="/contact"

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from '../assets'
+import Logo from '../assets/logo1.jpg'
 import { Link, NavLink } from 'react-router-dom'
 
 const activeClassName = 'text-amber-500'
