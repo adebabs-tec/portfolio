@@ -1,16 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
+import React from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import {
   HeroSm,
   HeroMd,
   HeroLg,
   PortfolioPattern,
   Services,
-} from '../../assets'
-import Scroller from '../../components/scroller'
-import Contact from '../Contact/contact'
-import { portfolioData } from '../../data'
+} from "../../assets";
+import Scroller from "../../components/scroller";
+import Contact from "../Contact/contact";
+import { portfolioData } from "../../data";
 function Home() {
   return (
     <div className="border-black border-x-2">
@@ -88,13 +88,13 @@ function Home() {
         text={
           "✨ Let's get to work ✨ Have a project in mind? ✨ Let's get to work ✨ Have a project in mind? ✨ Let's get to work ✨ Have a project in mind?"
         }
-        link={'/contact'}
+        link={"/contact"}
       />
 
       <section
         id="work"
         className="px-4 p-12 border-black border-t-2 bg-teal-600 bg-fixed"
-        style={{ backgroundImage: 'url(' + PortfolioPattern + ')' }}
+        style={{ backgroundImage: "url(" + PortfolioPattern + ")" }}
       >
         <div className="container mx-auto">
           <div className="text-white text-center py-12">
@@ -102,9 +102,9 @@ function Home() {
               Selected Work
             </h1>
             <p className="max-w-xl text-lg mx-auto">
-              Getting to know more about Tailwindcss by designing this
-              portfolio. Hope you like it and I am expecting more comments in
-              the contact section.
+              Discover a collection of standout projects demonstrating my
+              expertise and creativity. These selected works showcase my skills
+              and commitment to excellence in web development and design
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-28">
@@ -144,7 +144,7 @@ function Home() {
           </div>
 
           <Link
-            to="/work"
+            to="/"
             className="text-xl mb-4 text-white gap-4 font-bold justify-center flex"
           >
             View all work
@@ -172,9 +172,9 @@ function Home() {
               Services
             </h1>
             <p className="max-w-xl text-lg mx-auto">
-              Getting to know more about Tailwindcss by designing this
-              portfolio. Hope you like it and I am expecting more comments in
-              the contact section.
+              Discover a collection of standout projects demonstrating my
+              expertise and creativity. These selected works showcase my skills
+              and commitment to excellence in web development and design
             </p>
           </div>
           <div className="text-black py-12 grid lg:grid-cols-4 items-center">
@@ -185,7 +185,7 @@ function Home() {
                 creativity and functionality is my passion in web design.
               </p>
               <Link
-                to={'/web-design'}
+                to={"/web-design"}
                 className="flex gap-2 items-center font-bold mb-14 text-lg"
               >
                 <svg
@@ -211,7 +211,7 @@ function Home() {
                 world.
               </p>
               <Link
-                to={'/web-development'}
+                to={"/web-development"}
                 className="flex gap-2 items-center font-bold mb-14 text-lg"
               >
                 <svg
@@ -247,7 +247,7 @@ function Home() {
                 enjoy creating other digital products.
               </p>
               <Link
-                to={'/branding'}
+                to={"/branding"}
                 className="flex gap-2 items-center font-bold mb-14 text-lg"
               >
                 <svg
@@ -272,7 +272,7 @@ function Home() {
                 system and comprehensive component library.
               </p>
               <Link
-                to={'/web-bootstrap'}
+                to={"/web-bootstrap"}
                 className="flex gap-2 items-center font-bold mb-14 text-lg"
               >
                 <svg
@@ -296,7 +296,7 @@ function Home() {
       </section>
       <Contact />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
